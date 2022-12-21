@@ -141,6 +141,11 @@ header {
     font-family: 'Open Sans';
 }
 
+.latest-articles h2 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
 .article-row {
     display: flex;
     justify-content: center;
@@ -162,10 +167,41 @@ header {
 }
 
 .article-post h3 {
-    text-align: center;
+    font-size: 24px;
+    padding: 20px 20px 0px 20px;
+}
+
+.article-post h3 a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+
+.article-post h3 a:hover {
+    color: #ff5714;
 }
 
 .article-post p {
+    font-size: 14px;
+    padding: 20px;
+}
+
+.article-post button {
+    margin: 0 0 0 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff5714;
+    padding: 15px 20px 15px 20px;
+    transition: all 0.5s;
+}
+
+.article-post button a {
+    text-decoration: none;
+    color: #e9e9e9;
+}
+
+.article-post button:hover {
+    background-color: #c73900;
 }
 
 .bench-press {
@@ -182,6 +218,94 @@ header {
     transform: scale(1.1);
 }
 
+.shredded-guy {
+    width: 100%;
+    height: 100%;
+    background-image: url(shredded-guy-blog-post.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.shredded-guy:hover {
+    transform: scale(1.1);
+}
+
+.tracking-macros {
+    width: 100%;
+    height: 100%;
+    background-image: url(meal-prep-blog-post.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.tracking-macros:hover {
+    transform: scale(1.1);
+}
+
+.bodyweight-workout {
+    width: 100%;
+    height: 100%;
+    background-image: url(bodyweight-blog-post.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.bodyweight-workout:hover {
+    transform: scale(1.1);
+}
+
+.crossfit {
+    width: 100%;
+    height: 100%;
+    background-image: url(crossfit-blog-post.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.crossfit:hover {
+    transform: scale(1.1);
+}
+
+.squat-mobility {
+    width: 100%;
+    height: 100%;
+    background-image: url(squat-mobility-blog-post.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.squat-mobility:hover {
+    transform: scale(1.1);
+}
+
+.blog-post-nav {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.blog-post-nav a.active-blog-page {
+    color: #ff5714;
+}
+
+.blog-post-nav a {
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.blog-post-nav a:hover {
+    color: #ff5714;
+}
 
 
 
