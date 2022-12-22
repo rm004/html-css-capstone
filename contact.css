@@ -133,77 +133,74 @@ header {
     background-color: #fa4700;
 }
 
-.image-gallery h2 {
+.full-contact-form {
     font-family: 'Open Sans';
+}
+
+.full-contact-form h2 {
     text-align: center;
     padding: 20px 0 20px 0;
+    font-size: 30px;
 }
 
-.image-row {
+.contact-form {
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+}
+
+fieldset {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0;
-    padding: 20px 20px 20px 20px;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
-.image-unit {
-    background-color: white;
-    height: 350px;
-    width: 30%;
-    border: 1px solid black;
-    transition: all 1s;
+.contact-form input {
+    width: 75%;
+    margin: 10px auto;
+    height: 30px;
 }
 
-.image-link {
-    width: 100%;
-    height: 100%;
+.text-label {
+    width: 75%;
+    margin: auto;
 }
 
-.image-unit:hover {
-    transform: scale(1.1);
+.contact-form textarea {
+    width: 75%;
+    margin: 20px auto 0 auto;
+    height: 75px;
 }
 
-.image-unit-1 {
-    background-image: url(bodyweight-blog-post.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.subscribe-check {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: 20px auto;
 }
 
-.image-unit-2 {
-    background-image: url(crossfit-blog-post.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.subscribe-check input {
+    width: 15px;
+    margin: 0 20px 0 0;
 }
 
-.image-unit-3 {
-    background-image: url(squat-mobility-blog-post.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.subscribe-check label {
+    font-size: 16px;
 }
 
-.image-unit-4 {
-    background-image: url(meal-prep-blog-post.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.contact-form input[type=submit] {
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto 20px auto;
+    background-color: #ff5714;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color: white;
 }
 
-.image-unit-5 {
-    background-image: url(shredded-guy-blog-post.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.image-unit-6 {
-    background-image: url(bench-press-blog-post.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 
 
